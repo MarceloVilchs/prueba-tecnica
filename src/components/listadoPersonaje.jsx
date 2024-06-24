@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { fetchCharacter } from '../services/fetchCharacter';
 
-// La funcion de listadoPersonaje se encarga de mostrar la lista de personajes traida desde la API de Rick and Morty
+// La funcion de ListadoPersonaje se encarga de mostrar la lista de personajes traida desde la API de Rick and Morty
 function ListadoPersonaje() {
 
     const [ personajes, setPersonajes ] = useState([]);
