@@ -11,3 +11,4 @@ export const fetchPersonajeID = async (id) => {
     const response = await axios.get(`${API_URL}/character/${id}`);
     return response.data;
 };
+
