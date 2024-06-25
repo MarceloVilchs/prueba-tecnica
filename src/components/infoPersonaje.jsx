@@ -23,14 +23,14 @@ function InfoPersonaje() {
 
 // Se retorna la informacion del personaje en especifico en donde se muestra la imagen, nombre, status, especie, genero y origen
     return (
-        <div>
+        <div className='personaje-detalles'>
 
             <img src={ personaje.image } alt={ personaje.name } />
             <h2>{ personaje.name }</h2>
             <p>Status: { personaje.status }</p>
             <p>Species: { personaje.species }</p>
-            <p>Gender: { CharacterData.gender }</p>
-            <p>Origin: { CharacterData.origin.name }</p>
+            <p>Gender: { personaje.gender }</p>
+            <p>Origin: { personaje.origin.name }</p>
 
         </div>
 

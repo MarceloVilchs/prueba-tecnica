@@ -3,7 +3,7 @@ import React from "react";
 // La funcion de Filtro se encarga de mostrar los filtros de Status y Species, en donde se puede filtrar los personajes por su estado y especie
 function Filtro({ status, setStatus, species, setSpecies}) {
     return (
-        <div>
+        <div className="filter">
             <select value={status} onChange={(e) => setStatus(e.target.value)}>
                 <option value="">Status</option>
                 <option value="Alive">Alive</option>
